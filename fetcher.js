@@ -7,3 +7,6 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+//variables created for pulling url and then filePath next
+const url = process.argv[2];
+const filePath = process.argv[3];
